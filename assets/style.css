@@ -125,6 +125,8 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	max-width: 500px;
+	max-height: 500px;
 }
 .mg-prev, .mg-next {
 	width: 30px;
