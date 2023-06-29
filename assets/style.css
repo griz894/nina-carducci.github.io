@@ -1,23 +1,23 @@
 body {
-	max-width: 1920px;
-	margin: auto;
+ max-width:1920px;
+ margin:auto;
 }
 
 * {
-	font-family: 'Inter', 'Times';
-	font-style: normal;
+ font-family:'Inter','Times';
+ font-style:normal;
 }
 
 .top-header {
-	background-color: white;
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-	display: flex;
-	justify-content: space-between;
-	padding-inline: 100px;
-	padding-block: 30px;
-	align-items: center;
+ background-color:white;
+ position:sticky;
+ top:0;
+ z-index:1000;
+ display:flex;
+ justify-content:space-between;
+ padding-inline:100px;
+ padding-block:30px;
+ align-items:center;
 }
 
 .top-header .name {
@@ -25,10 +25,10 @@ body {
 }
 
 .nav ul {
-	display: flex;
-	list-style-type: none;
-	font-size: 14px;
-	margin-bottom: 0;
+ display:flex;
+ list-style-type:none;
+ font-size:14px;
+ margin-bottom:0;
 }
 
 .nav li {
@@ -36,32 +36,32 @@ body {
 }
 
 .nav a {
-	text-decoration: none;
-	color: #000
+ text-decoration:none;
+ color:#000
 }
 
 .social-link img {
-	max-width: 20px;
-	max-height: 20px;
+ max-width:20px;
+ max-height:20px;
 }
 
 #about {
-	display: flex;
-	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
-	position: relative;
+ display:flex;
+ background-color:#F6D2B8;
+ padding-inline:100px;
+ padding-block:100px;
+ position:relative;
 }
 
 .picture.left::before {
-	content: ' ';
-	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: -1;
+ content:' ';
+ background-color:#E5975F;
+ width:374px;
+ height:329px;
+ position:absolute;
+ bottom:0;
+ left:0;
+ z-index:-1;
 }
 
 .picture {
@@ -164,7 +164,7 @@ body {
 }
 
 .quote__text {
-	font-family: 'Spectral' , 'Times';
+	font-family: 'Spectral', 'Times';
 	font-style: italic;
 	font-weight: 300;
 	font-size: 40px;
@@ -172,7 +172,7 @@ body {
 }
 
 .quote__author {
-	font-family: 'Spectral' , 'Times';
+	font-family: 'Spectral', 'Times';
 	font-weight: 800;
 	font-size: 22px;
 }
