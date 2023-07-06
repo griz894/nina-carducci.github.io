@@ -119,7 +119,9 @@
         .attr("src", element.attr("src"));
       $(`#${lightboxId}`).modal("toggle");
     },
-
+// MODIFICATION DES FUCTION PREVIMAGE ET NEXTIMAGE
+// determine le tag actif, puis determine l'index de l'image
+// récupere le source de l'image suivante/précedente pour la changer 
     prevImage(lightboxId) {
       let activeTag = $(".tags-bar span.active-tag").data("images-toggle");
       let imagesCollection = this.getImagesByTag(activeTag);
